@@ -1,5 +1,5 @@
-CREATE DATABASE your_database;
-USE your_database;
+CREATE DATABASE company;
+USE company;
 
 CREATE TABLE Employee (
     ID INT PRIMARY KEY AUTO_INCREMENT,
