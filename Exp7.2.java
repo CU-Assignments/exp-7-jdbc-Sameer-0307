@@ -7,7 +7,7 @@ public class ProductCRUD {
     private static final String PASSWORD = "9955";
 
     public static void main(String[] args) {
-        try (Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ProductDB", "sameer03", "9955);
              Scanner scanner = new Scanner(System.in)) {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
