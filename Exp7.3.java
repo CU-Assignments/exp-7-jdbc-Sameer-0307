@@ -24,8 +24,8 @@ import java.util.*;
 
 class StudentController {
     private static final String URL = "jdbc:mysql://localhost:3306/StudentDB";
-    private static final String USER = "your_username";
-    private static final String PASSWORD = "your_password";
+    private static final String USER = "sameer03";
+    private static final String PASSWORD = "9955";
     
     public static void addStudent(Student student) {
         String query = "INSERT INTO Student (StudentID, Name, Department, Marks) VALUES (?, ?, ?, ?)";
