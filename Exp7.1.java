@@ -13,7 +13,7 @@ public class EmployeeJDBC {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             // Establish Connection
-            Connection conn = DriverManager.getConnection(url, user, password);
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/company", "sameer03", "9955");
             
             // Create Statement
             Statement stmt = conn.createStatement();
